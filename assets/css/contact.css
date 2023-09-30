@@ -1,0 +1,221 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root {
+  --main-color: #e86a33;
+}
+body {
+  overflow-x: hidden;
+}
+/* ****************** */
+.heading .content .nav {
+  padding-top: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+.heading .content .nav .icon {
+  display: none;
+  flex-direction: column;
+  cursor: pointer;
+  direction: rtl;
+}
+.heading .content .nav .icon span {
+  margin: 5px 0;
+  width: 40px;
+  height: 2px;
+  background-color: white;
+}
+@media (max-width: 990px) {
+  .heading .content .nav .icon {
+    display: flex;
+  }
+  .heading .content .nav .links ul {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    transition: all 0.5s;
+    width: 100%;
+    height: 40%;
+    left: -100%;
+    top: 80px;
+    background-color: #0f5346;
+  }
+}
+
+.visiblediv {
+  margin-top: -150px;
+  width: 50%;
+  background-color: white;
+  box-shadow: 1px 1px 1px 1px black;
+}
+.visiblediv div h3 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+.visiblediv div {
+  padding: 20px 30px;
+}
+.visiblediv div input {
+  width: 100%;
+  margin-bottom: 20px;
+  padding: 10px;
+}
+.visiblediv div textarea {
+  width: 100%;
+  margin-bottom: 20px;
+  padding: 10px;
+}
+.visiblediv div button {
+  background-color: var(--main-color);
+  width: 100%;
+  text-align: center;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+}
+.visiblediv div button a {
+  text-decoration: none;
+  color: white;
+}
+@media (max-width: 1000px) {
+  .visiblediv {
+    width: 100%;
+    margin: 20px 0;
+  }
+}
+/* ****************** */
+.heading {
+  background-color: #1c6758;
+  background-image: url(../images/Group-49.webp);
+}
+.heading .content .nav {
+  padding-top: 20px;
+}
+.heading .content .nav .links ul {
+  display: flex;
+  justify-content: space-evenly;
+}
+.heading .content .nav .links ul li {
+  list-style-type: none;
+}
+.heading .content .nav .links ul li a {
+  text-decoration: none;
+  color: white;
+}
+.heading .content .nav .links ul li a:hover {
+  color: var(--main-color);
+  transition: 0.5s;
+}
+.heading .content .body {
+  padding-top: 100px;
+  padding-bottom: 50px;
+}
+.heading .content .body h4 {
+  color: #02ffcc;
+  font-size: 20px;
+}
+.heading .content .body h2 {
+  color: white;
+  font-weight: bold;
+  font-size: 50px;
+}
+.heading .content .body h2 span {
+  color: var(--main-color);
+}
+/* ****************** */
+.first-section .content .title {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+/* ****************** */
+.second-section {
+  padding: 0 0 50px 0;
+}
+.second-section .div {
+  padding: 30px;
+}
+.second-section .div img {
+  width: 100px;
+}
+.second-section .div h4 {
+  color: #1c6758;
+}
+.second-section .div a {
+  text-decoration: none;
+  border-bottom: 3px solid var(--main-color);
+  padding-bottom: 5px;
+  color: var(--main-color);
+}
+/* ****************** */
+.third-section {
+  text-align: center;
+  padding: 50px 0;
+}
+.third-section .imagediv {
+  padding: 30px 0;
+}
+/* ****************** */
+.seventh-section {
+  background-color: #1c6758;
+  background-image: url(../images/Group-49.webp);
+}
+.seventh-section .container {
+  padding: 100px 0;
+  color: white;
+}
+.seventh-section .container .title {
+  width: 80%;
+  margin: auto;
+  text-align: center;
+}
+.seventh-section .container .title h2 {
+  padding-bottom: 30px;
+}
+.seventh-section .container .title h2 span {
+  color: var(--main-color);
+}
+.seventh-section .container .title button {
+  background-color: var(--main-color);
+  /* padding: 15px 20px; */
+  border: none;
+  border-radius: 5px;
+}
+.seventh-section .container .title button:hover {
+  background-color: white;
+  transition: 0.5s;
+}
+.seventh-section .container .title button a {
+  text-decoration: none;
+  padding: 15px 20px;
+  display: block;
+  color: white;
+}
+.seventh-section .container .title button a:hover {
+  color: var(--main-color);
+}
+/* ****************** */
+.footer {
+  padding: 100px 0;
+}
+.footer .container {
+  padding-left: 30px;
+}
+.footer img {
+  width: 100px;
+  padding-bottom: 20px;
+}
+.footer h4 {
+  color: #1c6758;
+  padding-bottom: 20px;
+}
+.footer p a {
+  text-decoration: none;
+  color: black;
+}
+/* ****************** */
+.my-name .container {
+  padding: 0 0 50px 0;
+  font-weight: bold;
+}
