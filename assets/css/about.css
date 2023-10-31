@@ -340,6 +340,12 @@ body {
   text-decoration: none;
   color: black;
 }
+@media (max-width: 990px) {
+  .footer .wrap {
+    max-width: 100%;
+    overflow: hidden;
+  }
+}
 /* ****************** */
 .my-name .container {
   padding: 0 0 50px 0;
